@@ -1,0 +1,70 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.model",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 126,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "lasermain",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "laser",
+					"parent": "lasermain",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 16.25, -17.25], "size": [3, 2.5, 7.25], "inflate": 0.001, "uv": [0, 12]},
+						{"origin": [-1.5, 15.75, -16.1], "size": [3, 1, 1], "inflate": -0.001, "pivot": [0, 16.25, -15.79289], "rotation": [45, 0, 0], "uv": [26, 26]},
+						{"origin": [-1.5, 12.5, -16.1], "size": [3, 1, 1], "inflate": -0.001, "pivot": [0, 13, -15.79289], "rotation": [45, 0, 0], "uv": [26, 28]},
+						{"origin": [-1.5, 10.75, -17.25], "size": [3, 2.5, 10.25], "inflate": 0.001, "uv": [0, 0]},
+						{"origin": [-1.5, 13.25, -15.75], "size": [3, 3, 6.6], "uv": [20, 12]},
+						{"origin": [-1.25, 13.25, -17.5], "size": [2.5, 3, 2.1], "uv": [18, 21]},
+						{"origin": [-1.5, 15.25, -9.15], "size": [3, 1, 1], "uv": [26, 24]},
+						{"origin": [-1.5, 9.18012, -9.55136], "size": [3, 3, 1.5], "inflate": -0.001, "pivot": [0, 12.18012, -8.05136], "rotation": [-134.5, 0, 0], "uv": [26, 3]},
+						{"origin": [-1.5, 13.23697, -12.05954], "size": [3, 2.5, 1.5], "inflate": -0.001, "pivot": [0, 15.73697, -10.55954], "rotation": [-160, 0, 0], "uv": [26, 21]},
+						{"origin": [-1.5, 9.93012, -9.55136], "size": [3, 2.75, 1.5], "inflate": -0.3, "pivot": [0, 12.68012, -8.05136], "rotation": [135.5, 0, 0], "uv": [18, 26]},
+						{"origin": [0.75, 14.25, -13.5], "size": [1, 2, 2], "inflate": 0.2, "uv": [0, 29]},
+						{"origin": [1.15, 14.25, -10.5], "size": [1, 3, 1], "inflate": -0.2, "uv": [6, 29]},
+						{"origin": [1.15, 15.5, -12.5], "size": [1, 3, 1], "inflate": -0.2, "pivot": [1.65, 17, -12], "rotation": [90, 0, 0], "uv": [10, 29]},
+						{"origin": [-1.5, 10.75, -17.25], "size": [3, 2, 6], "inflate": 0.2, "uv": [0, 21]},
+						{"origin": [-1.5, 10.75, -10.25], "size": [3, 1, 2], "inflate": 0.25, "uv": [26, 0]},
+						{"origin": [-1.9, 10.5, -11.1], "size": [3.8, 3.75, 1], "inflate": -0.2, "uv": [26, 7]},
+						{
+							"origin": [0.5, 13, 9],
+							"size": [0.5, 0.5, 1000],
+							"pivot": [-0.5, 13.75, 0],
+							"rotation": [180, 0, -45],
+							"uv": {
+								"north": {"uv": [63, 0], "uv_size": [1, 1]},
+								"east": {"uv": [63, 0], "uv_size": [1, 1]},
+								"south": {"uv": [63, 0], "uv_size": [1, 1]},
+								"west": {"uv": [63, 0], "uv_size": [1, 1]},
+								"up": {"uv": [64, 1], "uv_size": [-1, -1], "uv_rotation": 90},
+								"down": {"uv": [64, 1], "uv_size": [-1, -1], "uv_rotation": 270}
+							}
+						}
+					]
+				},
+				{
+					"name": "_ca_laser",
+					"parent": "lasermain",
+					"pivot": [0, 18.725, -13.425],
+					"cubes": [
+						{"origin": [-0.5, 18.225, -13.925], "size": [1, 1, 1], "uv": [27, 9]}
+					]
+				}
+			]
+		}
+	]
+}

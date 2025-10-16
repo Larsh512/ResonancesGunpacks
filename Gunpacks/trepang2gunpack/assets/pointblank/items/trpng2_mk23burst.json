@@ -1,0 +1,32 @@
+{
+  "name": "trpng2_mk23burst",
+  "type": "Attachment",
+  "category": "skin",
+    "groups": [
+    "trpng2_mk23_modes"
+  ],
+  "features": [
+		{
+			"type": "FireMode",
+			"fireModes": [
+				{
+					"name": "trepang_burst_pistol",
+					"displayName": "label.pointblank.fireMode.burst",
+					"type": "BURST",
+					"rpm": 800,
+					"damage": 5,
+					"burstShots": 3
+				}
+			]
+		},
+        {
+        "type": "Skin",
+            "skins": [
+                {
+                "gunId": "trpng2_mk23",
+                "texture": "textures/item/skin_trpng2_mk23_burst.png"
+                }
+            ]
+        }
+	]
+}

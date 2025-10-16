@@ -1,0 +1,132 @@
+{
+    "name": "trpng2_mk23",
+    "type": "Gun",
+    "maxAmmoCapacity": 13,
+    "compatibleAmmo": ["ammo45acp","ammocreative"],
+    "damage": 5,
+    "rpm": 800,
+    "fireSound": "trpng2_pistol",
+    "fireModes": ["SINGLE"],
+    "animationType": "pistol",
+    "compatibleAttachments": [
+        "p30l_compensator",
+        "trpng2_mk23laser",
+        "smg_suppressor"
+    ],
+    "compatibleAttachmentGroups": [
+        "trpng2_mk23_modes"
+    ],
+    "gunRecoilInitialAmplitude" : 0.8,
+    "shakeRecoilAmplitude" : 0.35,
+    "shakeRecoilSpeed" : 3,
+    "viewRecoilAmplitude" : 3.0,
+    "phasedReloads": [
+        {
+            "phase": "RELOADING",
+            "condition": "reloadIterationIndex == 0",
+            "duration": 2110,
+            "animation": "animation.model.reloadempty"
+        },
+        {
+            "phase": "RELOADING",
+            "condition": "reloadIterationIndex > 0",
+            "duration": 1890,
+            "animation": "animation.model.reload"
+        }
+    ],
+    "drawAnimations": [
+        {
+            "name": "animation.model.draw",
+            "duration": 500,
+            "condition": "ammoCount > 0"
+        },
+        {
+            "name": "animation.model.drawempty",
+            "duration": 500,
+            "condition": "ammoCount == 0"
+        }
+    ],
+    "idleAnimations": [
+        {
+            "name": "animation.model.idle",
+            "duration": 0,
+            "condition": "ammoCount > 0"
+        },
+        {
+            "name": "animation.model.idleempty",
+            "duration": 0,
+            "condition": "ammoCount == 0"
+        }
+    ],
+    "inspectAnimations": [
+        {
+            "name": "animation.model.inspect",
+            "duration": 5000,
+            "condition": "ammoCount > 0"
+        },
+        {
+            "name": "animation.model.inspectempty",
+            "duration": 5000,
+            "condition": "ammoCount == 0"
+        }
+    ],
+    "effects": [
+        {
+            "phase": "hit_scan_acquired",
+            "name": "tracer"
+        },
+        {
+            "phase": "firing",
+            "name": "muzzle_flash_small"
+        }
+    ],
+    "features": [
+        {
+            "type": "Aiming",
+            "zoom": 0.25,
+            "condition": {
+                "allOf": [{"doesNotHaveAttachmentGroup": "hg_sights"}]
+            }
+        },
+        {
+            "type": "Sound",
+            "fireSound": "trpng2_pistol_s1",
+            "fireSoundVolume": 1,
+            "condition": {
+                "hasAttachmentGroup": "smg_suppressors"
+            }
+        },
+        {
+            "type": "MuzzleFlash",
+            "effects": [
+                {
+                    "phase": "firing",
+                    "name": "muzzle_flash_small"
+                }
+            ],
+            "condition": {
+                "allOf": [
+                    {
+                        "isUsingDefaultMuzzle": true
+                    },
+                    {
+                        "doesNotHaveAttachmentGroup": "smg_muzzle"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "PartVisibility",
+            "parts": [
+                {
+                    "name": "laser",
+                    "visible": true,
+                    "condition": {
+                        "allOf": [{"hasAttachment": "trpng2_mk23laser"}]
+                    }
+                }
+            ]
+        }
+    ],
+    "glowingParts": [{"name": "glowy"}]
+}

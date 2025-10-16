@@ -1,0 +1,26 @@
+{
+	"name": "trpng2_mk23laser",
+	"type": "Attachment",
+	"category": "laser",
+	"groups": [
+		"trpng2_pistol_lasers"
+	],
+	"features": [
+		{
+			"type": "Recoil",
+			"recoilModifier": 0.75
+		},
+        {
+            "type": "PartVisibility",
+            "parts": [
+                {
+                    "name": "lasermain",
+                    "visible": true,
+                    "condition": {
+                        "isGunOnGround": true
+                    }
+                }
+            ]
+        }
+	]
+}

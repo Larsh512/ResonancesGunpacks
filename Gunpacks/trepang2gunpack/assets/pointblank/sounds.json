@@ -1,0 +1,138 @@
+{
+    "trpng2_smg_magin": {
+    "sounds": [
+      {"name": "pointblank:trpng2_smg_magin"}
+    ]
+  },
+  "trpng2_smg_magout": {
+    "sounds": [
+      {"name": "pointblank:trpng2_smg_magout"}
+    ]
+  },
+  "trpng2_rifle_magin": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle_magin"}
+    ]
+  },
+  "trpng2_rifle_magout": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle_magout"}
+    ]
+  },
+  "trpng2_rifle_charge": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle_charge"}
+    ]
+  },
+  "trpng2_rifle_chargerelease": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle_chargerelease"}
+    ]
+  },
+  "trpng2_rifle_chargeup": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle_chargeup"}
+    ]
+  },
+  "trpng2_pistol_magin": {
+    "sounds": [
+      {"name": "pointblank:trpng2_pistol_magin"}
+    ]
+  },
+  "trpng2_pistol_magout": {
+    "sounds": [
+      {"name": "pointblank:trpng2_pistol_magout"}
+    ]
+  },
+  "trpng2_pistol_slide": {
+    "sounds": [
+      {"name": "pointblank:trpng2_pistol_slide"}
+    ]
+  },
+  "trpng2_dmr_magin": {
+    "sounds": [
+      {"name": "pointblank:trpng2_dmr_magin"}
+    ]
+  },
+  "trpng2_dmr_magout": {
+    "sounds": [
+      {"name": "pointblank:trpng2_dmr_magout"}
+    ]
+  },
+  "trpng2_bolt": {
+    "sounds": [
+      {"name": "pointblank:trpng2_bolt"}
+    ]
+  },
+"trpng2_shotgun_nopump": {
+    "sounds": [
+      {"name": "pointblank:trpng2_shotgun_nopump"}
+    ]
+  },
+  "trpng2_pistol_s1": {
+    "sounds": [
+      {"name": "pointblank:trpng2_pistol_s1"}
+    ]
+  },
+    "trpng2_pistol": {
+    "sounds": [
+      {"name": "pointblank:trpng2_pistol1"},
+      {"name": "pointblank:trpng2_pistol2"},
+      {"name": "pointblank:trpng2_pistol3"},
+      {"name": "pointblank:trpng2_pistol4"},
+      {"name": "pointblank:trpng2_pistol5"}
+    ]
+  },
+      "trpng2_dmr": {
+    "sounds": [
+      {"name": "pointblank:trpng2_dmr1"},
+      {"name": "pointblank:trpng2_dmr2"},
+      {"name": "pointblank:trpng2_dmr3"},
+      {"name": "pointblank:trpng2_dmr4"},
+      {"name": "pointblank:trpng2_dmr5"}
+    ]
+  },
+    "trpng2_vector": {
+    "sounds": [
+      {"name": "pointblank:trpng2_smg1"},
+      {"name": "pointblank:trpng2_smg2"},
+      {"name": "pointblank:trpng2_smg3"},
+      {"name": "pointblank:trpng2_smg4"},
+      {"name": "pointblank:trpng2_smg5"}
+    ]
+  },
+      "trpng2_vector_silenced": {
+    "sounds": [
+      {"name": "pointblank:trpng2_smg_s1"},
+      {"name": "pointblank:trpng2_smg_s2"},
+      {"name": "pointblank:trpng2_smg_s3"},
+      {"name": "pointblank:trpng2_smg_s4"},
+      {"name": "pointblank:trpng2_smg_s5"}
+    ]
+  },
+   "trpng2_rifle": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle1"},
+      {"name": "pointblank:trpng2_rifle2"},
+      {"name": "pointblank:trpng2_rifle3"},
+      {"name": "pointblank:trpng2_rifle4"},
+      {"name": "pointblank:trpng2_rifle5"}
+    ]
+  },
+     "trpng2_rifle_silenced": {
+    "sounds": [
+      {"name": "pointblank:trpng2_rifle_s1"},
+      {"name": "pointblank:trpng2_rifle_s2"},
+      {"name": "pointblank:trpng2_rifle_s3"},
+      {"name": "pointblank:trpng2_rifle_s4"},
+      {"name": "pointblank:trpng2_rifle_s5"}
+    ]
+  },
+      "trpng2_shell": {
+    "sounds": [
+      {"name": "pointblank:trpng2_shotgun_shell1"},
+      {"name": "pointblank:trpng2_shotgun_shell2"},
+      {"name": "pointblank:trpng2_shotgun_shell3"}
+    ]
+  }
+}

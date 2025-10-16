@@ -1,0 +1,31 @@
+{
+  "name": "trpng2_mk23auto",
+  "type": "Attachment",
+  "category": "skin",
+    "groups": [
+    "trpng2_mk23_modes"
+  ],
+  "features": [
+		{
+			"type": "FireMode",
+			"fireModes": [
+				{
+					"name": "trepang_automatic_pistol",
+					"displayName": "label.pointblank.fireMode.automatic",
+					"type": "AUTOMATIC",
+					"rpm": 800,
+					"damage": 5
+				}
+			]
+		},
+        {
+      "type": "Skin",
+      "skins": [
+        {
+          "gunId": "trpng2_mk23",
+          "texture": "textures/item/skin_trpng2_mk23_auto.png"
+        }
+      ]
+    }
+	]
+}
