@@ -1,0 +1,987 @@
+{
+    "gmb_lsp33": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_lsp33",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_lsp33_surpressed": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_lsp33_surpressed",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_asval": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_asval",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_asval_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_asval_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_asval_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_asval_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_asval_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_asval_slidepull",
+                "stream": false
+            }
+        ]
+    },
+        "gmb_asval_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_asval_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_2011": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_2011",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_2011_dryfire": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_2011_dryfire",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_2011_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_2011_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_2011_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_2011_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_2011_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_2011_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_2011_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_2011_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_agram": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_agram",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_agram_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_agram_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_agram_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_agram_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_agram_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_agram_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_agram_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_agram_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_agram_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_agram_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_ak74_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_ak74_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_ak74_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_ak74_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_ak74_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_ak74_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_ak74_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_ak74_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_akm": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_akm",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_akm_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_akm_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_akm_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_akm_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_akm_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_akm_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_akm_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_akm_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_db": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_db",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_db_breachclose": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_db_breachclose",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_db_breachopen": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_db_breachopen",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_db_shells_dragout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_db_shells_dragout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_db_shells_insert": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_db_shells_insert",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_deagle": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_deagle",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_deagle_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_deagle_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_deagle_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_deagle_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_deagle_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_deagle_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_deagle_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_deagle_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_g3a3": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_g3a3",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_g3a3_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_g3a3_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_g3a3_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_g3a3_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_g3a3_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_g3a3_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_g3a3_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_g3a3_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_glock": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_glock",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_glock_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_glock_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_glock_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_glock_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_glock_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_glock_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_glock_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_glock_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_glock_surpressed": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_glock_surpressed",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_gm6": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_gm6",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_gm6_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_gm6_charge",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_gm6_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_gm6_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_gm6_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_gm6_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_gm6_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_gm6_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_kar98k": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_kar98k",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_kar98k_boltforward": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_kar98k_boltforward",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_kar98k_boltpull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_kar98k_boltpull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_kar98k_feedbullets": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_kar98k_feedbullets",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_kar98k_loadbullets": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_kar98k_loadbullets",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_lynx_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_lynx_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1_boltpull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1_boltpull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1_boltrelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1_boltrelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1_boltrelease_alt": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1_boltrelease_alt",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m4a1_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m4a1_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m9a1": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m9a1",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m9a1_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m9a1_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m9a1_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m9a1_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m9a1_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m9a1_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m9a1_surpressed": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m9a1_surpressed",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m1911": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m1911",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m1911_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m1911_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m1911_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m1911_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m1911_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m1911_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_m1911_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_m1911_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_magpouch": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_magpouch",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mdr": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mdr",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mdr_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mdr_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mdr_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mdr_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mdr_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mdr_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mdr_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mdr_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mp5": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mp5",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mp5_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mp5_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mp5_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mp5_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mp5_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mp5_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_mp5_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_mp5_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_python": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_python",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_python_bulletseject": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_python_bulletseject",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_python_cylinderclose": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_python_cylinderclose",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_python_cylinderopen": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_python_cylinderopen",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_python_speedloaderinsert": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_python_speedloaderinsert",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_rm870": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_rm870",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_rm870_rackback": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_rm870_rackback",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_rm870_rackforward": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_rm870_rackforward",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_rm870_shellinsert": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_rm870_shellinsert",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scar_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scar_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scar_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scar_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scarh": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scarh",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scarh_surpressed": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scarh_surpressed",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scarh_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scarh_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scarh_slidepull_fat": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scarh_slidepull_fat",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scarh_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scarh_sliderelease",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_scarh_sliderelease_fat": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_scarh_sliderelease_fat",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_shoulder_assaultrifle": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_shoulder_assaultrifle",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_shoulder_hollowstock": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_shoulder_hollowstock",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_shoulder_longrifle": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_shoulder_longrifle",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_shoulder_mediumrifle": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_shoulder_mediumrifle",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_shoulder_shotgun": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_shoulder_shotgun",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_shoulder_smg": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_shoulder_smg",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12_rackforward": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12_rackforward",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12_rackforward_alt": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12_rackforward_alt",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12_rackpull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12_rackpull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12_rackpull_alt": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12_rackpull_alt",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12_rackreturn": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12_rackreturn",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_spas12_shell_insert": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_spas12_shell_insert",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_svd": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_svd",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_svd_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_svd_magin",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_svd_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_svd_magout",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_svd_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_svd_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "gmb_svd_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:gmb_svd_sliderelease",
+                "stream": false
+            }
+        ]
+    }
+}
+

@@ -1,0 +1,22 @@
+{
+    "name": "gmb_nulprostock",
+    "type": "Attachment",
+    "category": "gmbbufstock",
+    "groups": [
+    "gmb_buffertube_stocks"
+    ],
+   
+    "features": [
+    {
+    "type": "Recoil",
+    "recoilModifier": 0.92,
+    "condition": {
+    "hasAttachmentGroup": "gmb_buffertube_stocks"
+    }
+    },
+    {
+    "type": "Accuracy",
+    "accuracyModifier": 1.12
+    }
+    ]
+   }

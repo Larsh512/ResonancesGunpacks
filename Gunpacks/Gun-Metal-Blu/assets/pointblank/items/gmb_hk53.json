@@ -1,0 +1,141 @@
+{
+  "name" : "gmb_hk53",
+  "type": "Gun",  
+  "compatibleAttachmentGroups": [
+   "gmb_buffertube_stocks"
+  ],
+  "features": [
+ {
+ "type": "Aiming",
+ "zoom": 0.25,
+ "condition": {
+ "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+ }
+ },
+ {
+ "type": "MuzzleFlash",
+ "effects": [
+ {
+ "phase": "firing",
+ "name": "muzzle_flash"
+ }
+ ],
+ "condition": {
+  "allOf": [
+  {
+    "isUsingDefaultMuzzle": true
+  },
+  {
+  "doesNotHaveAttachmentGroup": "ar_suppressors"
+  }
+ ]
+ }
+ },
+ {
+ "type": "PartVisibility",
+ "parts": [
+  {
+    "name": "muzzlebreak",
+    "visible": false,
+    "condition": {
+     "hasAttachmentGroup": "ar_suppressors"
+    }
+  },
+  {
+    "name": "sightsflipped",
+    "visible": true,
+    "condition": {
+     "hasAttachmentGroup": "ar_sightsandscopes"
+    }
+  },
+  {
+    "name": "sights",
+    "visible": false,
+    "condition": {
+      "hasAttachmentGroup": "ar_sightsandscopes"
+    }
+  },
+  {
+    "name": "stock",
+    "visible": false,
+    "condition": {
+      "hasAttachmentGroup": "gmb_buffertube_stocks"
+    }
+  }
+ ]
+ },
+   {
+    "type": "Sound",
+    "fireSound": "gmb_agram_suppressed",
+    "fireSoundVolume": 1,
+    "condition": {
+      "allOf": [
+        {
+          "hasAttachmentGroup": "ar_suppressors"
+        }
+      ]
+    }
+  } 
+ ],
+  "maxAmmoCapacity" : 30,
+  "compatibleAmmo" : ["ammocreative", "ammo556"],
+  "damage" : 7.0,
+  "rpm" : 750,
+  "fireModes" : ["SINGLE", "AUTOMATIC", "BURST"],
+  "fireSound" : "gmb_g3a3",
+  "drawCooldownDuration" : 650,
+  "aimingZoom" : 0.25,
+  "gunRecoilInitialAmplitude" : 0.9,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2.5,
+  "viewRecoilAmplitude" : 2.5,
+  "inspectCooldownDuration": 5480,
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": {
+        "allOf": [
+             {
+              "onEmptyReload": true
+             }
+          ] 
+       },
+      "duration": 2750,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+        "allOf": [
+             {
+              "onEmptyReload": false
+             }
+          ] 
+       },
+      "duration": 2100,
+      "animation": "animation.model.reload"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 6800,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 8400,
+      "condition": "ammoCount == 0"
+    }
+  ]
+}

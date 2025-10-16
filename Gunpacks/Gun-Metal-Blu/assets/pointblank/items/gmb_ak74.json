@@ -1,0 +1,88 @@
+{
+  "name" : "gmb_ak74",
+  "type": "Gun",
+  "compatibleAttachments": [
+    "cantedrail"
+  ],   
+  "compatibleAttachmentGroups": [
+   "ar_sightsandscopes",
+   "ak_muzzle"
+  ],
+  "features": [
+ {
+ "type": "Aiming",
+ "zoom": 0.25,
+ "condition": {
+ "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+ }
+ },
+ {
+ "type": "MuzzleFlash",
+ "effects": [
+ {
+ "phase": "firing",
+ "name": "muzzle_flash"
+ }
+ ],
+ "condition": {
+  "allOf": [
+  {
+    "isUsingDefaultMuzzle": true
+  },
+  {
+    "doesNotHaveAttachment": "ak_suppressor"
+  }
+ ]
+ }
+ },
+   {
+    "type": "Sound",
+    "fireSound": "ak47_silenced",
+    "fireSoundVolume": 1,
+    "condition": {
+      "allOf": [
+        {
+          "hasAttachment": "ak_suppressor"
+        }
+      ]
+    }
+  } 
+ ],
+  "maxAmmoCapacity" : 30,
+  "compatibleAmmo" : ["ammocreative", "ammo556"],
+  "damage" : 7.0,
+  "rpm" : 650,
+  "fireModes" : ["SINGLE", "AUTOMATIC"],
+  "fireSound" : "gmb_akm",
+  "drawCooldownDuration" : 1080,
+  "aimingZoom" : 0.25,
+  "gunRecoilInitialAmplitude" : 0.8,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 4900,
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2430,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 1900,
+      "animation": "animation.model.reload"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ]
+}

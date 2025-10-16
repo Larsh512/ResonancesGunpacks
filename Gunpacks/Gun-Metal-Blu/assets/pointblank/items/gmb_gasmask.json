@@ -1,0 +1,8 @@
+{
+  "name": "gmb_gasmask",
+  "type": "Attachment",
+  "category": "mask",
+  "groups": [
+      "masks"
+  ]
+}

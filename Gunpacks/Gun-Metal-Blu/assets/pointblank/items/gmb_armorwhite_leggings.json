@@ -1,0 +1,8 @@
+{
+  "name": "gmb_armorwhite_leggings",
+  "type": "armor",
+  "armorType": "leggings",
+  "durability": 320,
+  "toughness": 1.5,
+  "defense": 3
+}

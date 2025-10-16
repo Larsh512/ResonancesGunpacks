@@ -1,0 +1,28 @@
+{
+  "name": "gmb_armorwhite_helmet",
+  "type": "armor",
+  "armorType": "helmet",
+  "durability": 320,
+  "toughness": 1.5,
+  "defense": 3,
+  "compatibleAttachments": [
+    "gmb_gasmask"
+  ],
+  "compatibleAttachmentGroups": [
+    "masks"
+  ],
+    "features": [
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "gasmask",
+          "visible": true,
+          "condition": {
+            "allOf": [{"hasAttachment": "gmb_gasmask"}]
+          }
+        }
+      ]
+    }
+  ]
+}

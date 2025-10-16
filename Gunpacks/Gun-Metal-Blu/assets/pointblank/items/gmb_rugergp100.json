@@ -1,0 +1,85 @@
+{
+    "name": "gmb_rugergp100",
+    "type": "Gun",
+    "maxAmmoCapacity": 6,
+    "compatibleAmmo": ["ammo357","ammocreative"],
+    "damage": 11.5,
+    "rpm": 500,
+    "fireSound": "gmb_python",
+    "animationType": "pistol",
+    "fireModes": ["SINGLE"],
+    "prepareFireCooldownDuration": 70,
+    "gunRecoilInitialAmplitude" : 0.6,
+    "shakeRecoilAmplitude" : 0.55,
+    "shakeRecoilSpeed" : 3,
+    "viewRecoilAmplitude" : 4.0,
+    "phasedReloads": [
+        {
+            "phase": "RELOADING",
+            "condition": "reloadIterationIndex == 0",
+            "duration": 2700,
+            "animation": "animation.model.reload"
+        },
+        {
+            "phase": "RELOADING",
+            "condition": "reloadIterationIndex > 0",
+            "duration": 2700,
+            "animation": "animation.model.reload"
+        }
+    ],
+    "drawAnimations": [
+        {
+            "name": "animation.model.draw",
+            "duration": 830
+        }
+    ],
+    "inspectAnimations": [
+        {
+            "name": "animation.model.inspect",
+            "duration": 4800
+        }
+    ],
+    "effects": [
+        {
+            "phase": "hit_scan_acquired",
+            "name": "tracer"
+        },
+        {
+            "phase": "firing",
+            "name": "muzzle_flash_small"
+        }
+    ],
+    "features": [
+        {
+            "type": "FireMode",
+            "fireModes": [
+            {
+              "name": "revolverfanning",
+              "displayName": "label.pointblank.fireMode.revolverfanning",
+              "type": "BURST",
+              "rpm": 600,
+              "prepareFireCooldownDuration": 100,
+              "animationName": "animation.model.firefan"
+            },
+            {
+                "name": "single",
+                "displayName": "label.pointblank.fireMode.single",
+                "type": "SINGLE",
+                "rpm": 500,
+                "prepareFireCooldownDuration": 70,
+                "animationName": "animation.model.fire"
+            }
+          ]
+        },
+        {
+            "type": "MuzzleFlash",
+            "effects": [
+                {
+                    "phase": "firing",
+                    "name": "muzzle_flash_small"
+                }
+            ]
+            
+        }
+    ]
+}

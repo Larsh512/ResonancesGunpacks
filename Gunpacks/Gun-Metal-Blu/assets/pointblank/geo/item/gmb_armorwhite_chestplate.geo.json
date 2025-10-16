@@ -1,0 +1,67 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bipedBody",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "armorBody",
+					"parent": "bipedBody",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.1, "uv": [26, 34]},
+						{"origin": [-4, 12, -2.5], "size": [8, 12, 5], "inflate": 0.15, "uv": [32, 0]},
+						{"origin": [-4, 12, -2.5], "size": [8, 12, 5], "inflate": 0.25, "uv": [32, 17]},
+						{"origin": [-3.75, 14.25, -3.7], "size": [2, 5, 1], "inflate": 0.1, "uv": [48, 63]},
+						{"origin": [-1, 14.25, -3.7], "size": [2, 5, 1], "inflate": 0.1, "uv": [54, 63]},
+						{"origin": [1.75, 14.25, -3.7], "size": [2, 5, 1], "inflate": 0.1, "uv": [60, 63]},
+						{"origin": [-3.75, 14.25, 2.8], "size": [2, 5, 1], "inflate": 0.1, "uv": [28, 64]},
+						{"origin": [-1, 14.25, 2.8], "size": [2, 5, 1], "inflate": 0.1, "uv": [22, 64]},
+						{"origin": [1.75, 14.25, 2.8], "size": [2, 5, 1], "inflate": 0.1, "uv": [16, 64]}
+					]
+				},
+				{
+					"name": "bipedRightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "armorRightArm",
+					"parent": "bipedRightArm",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 14, -2], "size": [4, 10, 4], "inflate": 0.201, "uv": [0, 49]},
+						{"origin": [-8, 12, -2], "size": [4, 2, 4], "inflate": 0.2, "uv": [58, 28]},
+						{"origin": [-8, 16, -2], "size": [4, 3, 4], "inflate": 0.25, "uv": [58, 8]},
+						{"origin": [-8.25, 20, -2.25], "size": [4.25, 4.05, 4.5], "inflate": 0.15, "uv": [48, 50]}
+					]
+				},
+				{
+					"name": "bipedLeftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "armorLeftArm",
+					"parent": "bipedLeftArm",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 14, -2], "size": [4, 10, 4], "inflate": 0.201, "uv": [16, 50]},
+						{"origin": [4, 12, -2], "size": [4, 2, 4], "inflate": 0.2, "uv": [58, 22]},
+						{"origin": [4, 16, -2], "size": [4, 3, 4], "inflate": 0.25, "uv": [58, 15]},
+						{"origin": [4, 20, -2.25], "size": [4.25, 4.05, 4.5], "inflate": 0.15, "uv": [58, 0]}
+					]
+				}
+			]
+		}
+	]
+}

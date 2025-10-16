@@ -1,0 +1,22 @@
+{
+    "name": "gmb_m16stock",
+    "type": "Attachment",
+    "category": "gmbbufstock",
+    "groups": [
+    "gmb_buffertube_stocks"
+    ],
+   
+    "features": [
+    {
+    "type": "Recoil",
+    "recoilModifier": 0.85,
+    "condition": {
+    "hasAttachmentGroup": "gmb_buffertube_stocks"
+    }
+    },
+    {
+    "type": "Accuracy",
+    "accuracyModifier": 1.19
+    }
+    ]
+   }

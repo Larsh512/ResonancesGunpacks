@@ -1,0 +1,26 @@
+{
+  "itemGroup.gun-metal-blu-pack.items": "Gun Metal Blu",
+
+  "item.pointblank.gmb_amcar4": "M4 CARBINE",
+  "item.pointblank.gmb_vhsd2": "VHS-D2",
+  "item.pointblank.gmb_ak74": "Ak-74",
+  "item.pointblank.gmb_lx58": "LX-58 Assault Rifle",
+  "item.pointblank.gmb_hk53": "HK-53",
+  "item.pointblank.gmb_rugergp100": "Ruger GP-100",
+  "item.pointblank.gmb_ks5": "KS5",
+  "item.pointblank.gmb_lsp33": "LSP33 (Resonance's Pistol)",
+  "item.pointblank.gmb_m4tan": "M4A1",
+
+  "item.pointblank.gmb_armorwhite_boots": "Snow Camo Boots",
+  "item.pointblank.gmb_armorwhite_helmet": "Snow Camo Helmet",
+  "item.pointblank.gmb_armorwhite_chestplate": "Snow Camo Chestplate",
+  "item.pointblank.gmb_armorwhite_leggings": "Snow Camo Leggings",
+
+  "item.pointblank.gmb_gasmask": "CM6 Gas Mask",
+
+  "item.pointblank.gmb_nulprostock": "NulPro BufferTube A.X.E Stock",
+  "item.pointblank.gmb_m16stock": "M16A1 Stock.",
+  "item.pointblank.gmb_hk_grip": "H&K Grip",
+
+  "label.pointblank.fireMode.revolverfanning": "Fan"
+}

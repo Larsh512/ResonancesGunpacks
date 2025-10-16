@@ -1,0 +1,93 @@
+{
+  "name": "gmb_ks5",
+  "type": "Gun",
+  "maxAmmoCapacity": 9,
+  "maxAmmoPerReloadIteration": 1,
+  "compatibleAmmo": ["ammocreative", "ammo12gauge"],
+  "pelletCount": 12,
+  "pelletSpread": 0.05,
+  "damage": 3,
+  "fireSound": "gmb_rm870",
+  "drawCooldownDuration": 800,
+  "inspectCooldownDuration": 4080,
+  "gunRecoilInitialAmplitude": 0.9,
+  "shakeRecoilAmplitude": 0.65,
+  "shakeRecoilSpeed": 3.5,
+  "viewRecoilAmplitude": 5.0,
+
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex == -1",
+      "duration": 380,
+      "animation": "animation.model.prepareempty"
+    },
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 380,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 1500,
+      "animation": "animation.model.chamberload"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 700,
+      "animation": "animation.model.load"
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 600,
+      "animation": "animation.model.finish"
+    }
+  ],
+
+  "features": [
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_big_ex"
+        }
+      ]
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "pump",
+          "displayName": "label.pointblank.fireMode.pump",
+          "type": "SINGLE",
+          "rpm": 110,
+          "damage": 1.7,
+          "pelletSpread": 0.1,
+          "pelletCount": 30,
+          "isUsingDefaultMuzzle": false,
+          "fireAnimations": [
+            { "name": "animation.model.firepump", "duration": 650 }
+          ]
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 500,
+          "damage": 1.1,
+          "pelletSpread": 0.1,
+          "pelletCount": 30,
+          "isUsingDefaultMuzzle": false,
+          "fireAnimations": [
+            { "name": "animation.model.firesemi", "duration": 350 }
+          ]
+        }
+      ]
+    }
+  ]
+}

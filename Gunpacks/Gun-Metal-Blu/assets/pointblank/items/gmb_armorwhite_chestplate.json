@@ -1,0 +1,8 @@
+{
+  "name": "gmb_armorwhite_chestplate",
+  "type": "armor",
+  "armorType": "chestplate",
+  "durability": 320,
+  "toughness": 1.5,
+  "defense": 3
+}
