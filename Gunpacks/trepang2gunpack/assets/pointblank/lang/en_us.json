@@ -1,12 +1,32 @@
 {
-  "itemGroup.trepang_pointblank_lh.items": "Trepang2 Gunpack",
+  "itemGroup.trepang_pointblank_lh.items": "Trepang2 Weapons",
+
   "item.pointblank.trpng2_vector": "SMG (Vector)",
   "item.pointblank.trpng2_dualspas": "Dual Shotguns (SPAS 12)",
   "item.pointblank.trpng2_dualmk23": "Dual Pistols (MK23)",
+  "item.pointblank.trpng2_dualsl8": "Dual DMR's (Sl8)",
   "item.pointblank.trpng2_dualvhsd2": "Dual Rifles (VHS D2)",
+
+  "item.pointblank.trpng2_dualmgx": "Dual Machine Guns (SF MGX)",
+  "item.pointblank.trpng2_dualrevolver": "Dual Revolvers (GP100)",
+
   "item.pointblank.trpng2_vhsd2": "Rifle (VHS D2)",
   "item.pointblank.trpng2_mk23": "Pistol (MK23)",
+  "item.pointblank.trpng2_spas12": "Shotgun (SPAS-12)",
+  "item.pointblank.trpng2_sl8": "DMR (SL8)",
+  "item.pointblank.trpng2_minigun": "Minigun",
+  "item.pointblank.trpng2_boltyeeter": "Bolt Launcher",
+
+  "item.pointblank.trpng2_machinegun": "Machine Gun (Surefire MGX)",
+  "item.pointblank.trpng2_sword": "Sword",
+  "item.pointblank.trpng2_revolver": "Revolver (GP100)",
+
   "item.pointblank.trpng2_mk23laser": "Laser (PISTOL)",
   "item.pointblank.trpng2_mk23auto": "Automatic Module (PISTOL.)",
-  "item.pointblank.trpng2_mk23burst": "Burst Module (PISTOL)"
+  "item.pointblank.trpng2_mk23burst": "Burst Module (PISTOL)",
+  "item.pointblank.trpng2_unfoldedstock": "Unfold Stock",
+  "item.pointblank.trpng2_nostock": "Remove Stock",
+
+  "label.pointblank.fireMode.trpng2_melee": "MELEE",
+  "label.pointblank.fireMode.trpng2_dualwield": "DUAL WIELD"
 }
