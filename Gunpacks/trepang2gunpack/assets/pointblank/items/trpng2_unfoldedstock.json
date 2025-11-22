@@ -1,0 +1,11 @@
+{
+	"name": "trpng2_unfoldedstock",
+	"type": "Attachment",
+	"category": "stockfolds",
+	"features": [
+		{
+			"type": "Recoil",
+			"recoilModifier": 0.60
+		}
+	]
+}

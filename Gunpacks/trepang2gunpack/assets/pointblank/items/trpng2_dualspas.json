@@ -1,0 +1,195 @@
+{
+  "name" : "trpng2_dualspas",
+  "type": "Gun",
+  "features": [
+      {
+        "type": "FireMode",
+        "fireModes": [
+          {
+            "name": "trpng2_dualwield",
+            "displayName": "label.pointblank.fireMode.trpng2_dualwield",
+            "type": "SINGLE",
+            "rpm": 42,
+            "damage": 1.70,
+            "pelletCount" : 30,
+            "pelletSpread" : 0.1,
+            "fireAnimations": [
+              {
+                "name": "animation.model.fireleft",
+                "condition": {
+                "anyOf": [
+                {
+                  "ammoCount": 16
+                },
+                {
+                  "ammoCount": 14
+                },
+                {
+                  "ammoCount": 12
+                },
+                {
+                  "ammoCount": 10
+                },
+                {
+                  "ammoCount": 8
+                },
+                {
+                  "ammoCount": 6
+                },
+                {
+                  "ammoCount": 4
+                },
+                {
+                  "ammoCount": 2
+                },
+                {
+                  "ammoCount": 0
+                }
+              ]
+            }
+              },
+              {
+                "name": "animation.model.fireright",
+                "condition": {
+                "anyOf": [
+                {
+                  "ammoCount": 15
+                },
+                {
+                  "ammoCount": 13
+                },
+                {
+                  "ammoCount": 11
+                },
+                {
+                  "ammoCount": 9
+                },
+                {
+                  "ammoCount": 7
+                },
+                {
+                  "ammoCount": 5
+                },
+                {
+                  "ammoCount": 3
+                },
+                {
+                  "ammoCount": 1
+                }
+              ]
+            }
+              }
+            ]
+            }
+        ]
+      }
+    ],
+  "maxAmmoCapacity" : 16,
+  "maxAmmoPerReloadIteration" : 1,
+  "fireModes" : ["SINGLE"],
+  "compatibleAmmo" : ["ammocreative", "ammo12gauge"],
+  "pelletCount" : 35,
+  "pelletSpread" : 0.1,
+  "damage" : 9,
+  "rpm" : 89,
+  "fireSound" : "trpng2_shotgun_nopump",
+  "drawCooldownDuration" : 1800,
+  "aimingZoom" : 0.25,
+  "gunRecoilInitialAmplitude" : 0.9,
+  "shakeRecoilAmplitude" : 0.70,
+  "shakeRecoilSpeed" : 4.5,
+  "viewRecoilAmplitude" : 7,
+  "inspectCooldownDuration" : 5700,
+  "muzzleFlashScale" : 2,
+  "aimingEnabled": false,
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "duration": 1000,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+        "anyOf": [
+          {
+            "ammoCount": 16
+          },
+          {
+            "ammoCount": 14
+          },
+          {
+            "ammoCount": 12
+          },
+          {
+            "ammoCount": 10
+          },
+          {
+            "ammoCount": 8
+          },
+          {
+            "ammoCount": 6
+          },
+          {
+            "ammoCount": 4
+          },
+          {
+            "ammoCount": 2
+          }
+        ]
+      },
+      "duration": 500,
+      "animation": "animation.model.iterativereload"
+    },
+        {
+      "phase": "RELOADING",
+      "condition": {
+        "anyOf": [
+          {
+            "ammoCount": 15
+          },
+          {
+            "ammoCount": 13
+          },
+          {
+            "ammoCount": 11
+          },
+          {
+            "ammoCount": 9
+          },
+          {
+            "ammoCount": 7
+          },
+          {
+            "ammoCount": 5
+          },
+          {
+            "ammoCount": 3
+          },
+          {
+            "ammoCount": 1
+          }
+        ]
+      },
+      "duration": 500,
+      "animation": "animation.model.iterativereloadaltdirection"
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 1800,
+      "animation": "animation.model.finish"
+    }
+    
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+     ]
+}

@@ -1,17 +1,7 @@
 {
-  "name" : "trpng2_vhsd2",
+  "name" : "trpng2_machinegun",
   "type": "Gun", 
-  "compatibleAttachmentGroups": [
-   "ar_suppressors"
-  ],
   "features": [
- {
- "type": "Aiming",
- "zoom": 0.25,
- "condition": {
- "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
- }
- },
  {
  "type": "MuzzleFlash",
  "effects": [
@@ -31,28 +21,9 @@
  ]
  }
  },
- {
- "type": "PartVisibility",
- "parts": [
-  {
-   "name": "muzzlebreak",
-   "visible": false,
-   "condition": {
-    "hasAttachmentGroup": "ar_suppressors"
-   }
-  },
-  {
-   "name": "sights",
-   "visible": false,
-   "condition": {
-     "hasAttachmentGroup": "trpng2_vhsd2_sight"
-    }
-   }
-  ]
-  },
   {
      "type": "Sound",
-     "fireSound": "trpng2_rifle_silenced",
+     "fireSound": "trpng2_machinegun_silenced",
      "fireSoundVolume": 1,
       "condition": {
         "allOf": [
@@ -64,30 +35,30 @@
      } 
   ],
 
-  "maxAmmoCapacity" : 30,
+  "maxAmmoCapacity" : 50,
   "compatibleAmmo" : ["ammocreative", "ammo556"],
-  "damage" : 7.0,
-  "rpm" : 850,
+  "damage" : 12.0,
+  "rpm" : 480,
   "fireModes" : ["SINGLE", "AUTOMATIC"],
-  "fireSound" : "trpng2_rifle",
-  "drawCooldownDuration" : 780,
+  "fireSound" : "trpng2_machinegun",
+  "drawCooldownDuration" : 1420,
   "aimingZoom" : 0.25,
   "gunRecoilInitialAmplitude" : 1.0,
   "shakeRecoilAmplitude" : 0.45,
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 2,
-  "inspectCooldownDuration": 5310,
+  "inspectCooldownDuration": 4880,
   "phasedReloads": [
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 3000,
+      "duration": 2710,
       "animation": "animation.model.reloadempty"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 2270,
+      "duration": 2600,
       "animation": "animation.model.reload"
     }
   ],

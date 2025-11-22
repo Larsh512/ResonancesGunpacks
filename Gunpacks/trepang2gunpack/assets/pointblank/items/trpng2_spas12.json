@@ -1,0 +1,108 @@
+{
+  "name": "trpng2_spas12",
+  "type": "Gun",
+  "maxAmmoCapacity": 9,
+  "maxAmmoPerReloadIteration": 1,
+  "pelletCount": 30,
+  "pelletSpread": 0.1,
+  "compatibleAmmo": ["ammocreative","ammo12gauge"],
+  "rpm": 150,
+  "fireModes": ["SINGLE"],
+  "compatibleAttachments": [
+        "trpng2_unfoldedstock",
+        "trpng2_nostock"
+  ],
+  "fireSound": "trpng2_shotgun",
+  "drawCooldownDuration": 980,
+  "inspectCooldownDuration": 4030,
+  "gunRecoilInitialAmplitude": 1.3,
+  "shakeRecoilAmplitude": 0.65,
+  "shakeRecoilSpeed": 3.5,
+  "viewRecoilAmplitude": 7.0,
+  "drawAnimations": [{ "name": "animation.model.draw", "duration": 980 }],
+  "inspectAnimations": [{ "name": "animation.model.inspect", "duration": 4030 }],
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 400,
+      "animation": "animation.model.iterativestart"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 1400,
+      "animation": "animation.model.iterativechamber"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 560,
+      "animation": "animation.model.iterativeinsert"
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 600,
+      "animation": "animation.model.iterativeend"
+    }
+  ],
+  "features": [
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_big_ex"
+        }
+      ],
+      "condition": {
+        "allOf": [
+          { "doesNotHaveAttachment": "sg_suppressor" }
+        ]
+      }
+    },
+    {
+      "type": "Aiming",
+      "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "pump",
+          "displayName": "label.pointblank.fireMode.pump",
+          "type": "SINGLE",
+          "rpm": 129,
+          "damage": 1.7,
+          "pelletSpread": 0.1,
+          "pelletCount": 30,
+          "isUsingDefaultMuzzle": false,
+          "fireAnimations": [
+            { "name": "animation.model.fire","condition": "random", "duration": 1200 },
+            { "name": "animation.model.fire2","condition": "random", "duration": 1200 }
+          ]
+        }
+      ]
+    },
+    {
+            "type": "PartVisibility",
+            "parts": [
+                {
+                    "name": "stockfolded",
+                    "visible": true,
+                    "condition": {
+                        "allOf": [{"doesNotHaveAttachment": "trpng2_unfoldedstock"},{"doesNotHaveAttachment": "trpng2_nostock"}]
+                    }
+                },
+                {
+                    "name": "stock",
+                    "visible": true,
+                    "condition": {
+                        "allOf": [{"hasAttachment": "trpng2_unfoldedstock"},{"doesNotHaveAttachment": "trpng2_nostock"}]
+                    }
+                }
+            ]
+    }
+  ]
+}

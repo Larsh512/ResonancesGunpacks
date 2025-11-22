@@ -13,6 +13,9 @@
       "underbarrel",
       "smg_muzzle"
     ],
+    "compatibleAttachments": [
+        "trpng2_unfoldedstock"
+  ],
     "gunRecoilInitialAmplitude": 0.5,
     "shakeRecoilAmplitude": 0.35,
     "shakeRecoilSpeed": 2.0,
@@ -87,6 +90,25 @@
             { "hasAttachment": "smg_suppressor" }
           ]
         }
+      },
+      {
+            "type": "PartVisibility",
+            "parts": [
+                {
+                    "name": "stockfolded",
+                    "visible": true,
+                    "condition": {
+                        "allOf": [{"doesNotHaveAttachment": "trpng2_unfoldedstock"}]
+                    }
+                },
+                {
+                    "name": "stock",
+                    "visible": true,
+                    "condition": {
+                        "allOf": [{"hasAttachment": "trpng2_unfoldedstock"}]
+                    }
+                }
+            ]
       }
     ],
     "glowingParts": [
