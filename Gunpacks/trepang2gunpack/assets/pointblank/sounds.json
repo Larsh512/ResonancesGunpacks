@@ -34,6 +34,36 @@
       {"name": "pointblank:trpng2_rifle_chargeup"}
     ]
   },
+  "trpng2_machinegun_magin": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_magin"}
+    ]
+  },
+  "trpng2_machinegun_magout": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_magout"}
+    ]
+  },
+  "trpng2_machinegun_maghit": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_maghit"}
+    ]
+  },
+  "trpng2_machinegun_boltback": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_boltback"}
+    ]
+  },
+  "trpng2_machinegun_boltforward": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_boltforward"}
+    ]
+  },
+  "trpng2_machinegun_draw": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_draw"}
+    ]
+  },
   "trpng2_pistol_magin": {
     "sounds": [
       {"name": "pointblank:trpng2_pistol_magin"}
@@ -64,9 +94,38 @@
       {"name": "pointblank:trpng2_bolt"}
     ]
   },
-"trpng2_shotgun_nopump": {
+  "trpng2_shotgun_nopump": {
     "sounds": [
       {"name": "pointblank:trpng2_shotgun_nopump"}
+    ]
+  },
+  "trpng2_shotgun_pump": {
+    "sounds": [
+      {"name": "pointblank:trpng2_shotgun_pump"}
+    ]
+  },
+    "trpng2_shotgun_dualequip": {
+    "sounds": [
+      {"name": "pointblank:trpng2_shotgun_dualequip"}
+    ]
+  },
+    "trpng2_shotgun_chamberstart": {
+    "sounds": [
+      {"name": "pointblank:trpng2_shotgun_chamberstart"}
+    ]
+  },
+    "trpng2_shotgun_chamberend": {
+    "sounds": [
+      {"name": "pointblank:trpng2_shotgun_chamberend"}
+    ]
+  },
+  "trpng2_shotgun": {
+  "sounds": [
+      {"name": "pointblank:trpng2_shotgun1"},
+      {"name": "pointblank:trpng2_shotgun2"},
+      {"name": "pointblank:trpng2_shotgun3"},
+      {"name": "pointblank:trpng2_shotgun4"},
+      {"name": "pointblank:trpng2_shotgun5"}
     ]
   },
   "trpng2_pistol_s1": {
@@ -81,6 +140,13 @@
       {"name": "pointblank:trpng2_pistol3"},
       {"name": "pointblank:trpng2_pistol4"},
       {"name": "pointblank:trpng2_pistol5"}
+    ]
+  },
+    "trpng2_machinegun": {
+    "sounds": [
+      {"name": "pointblank:trpng2_machinegun_fire1"},
+      {"name": "pointblank:trpng2_machinegun_fire2"},
+      {"name": "pointblank:trpng2_machinegun_fire3"}
     ]
   },
       "trpng2_dmr": {
